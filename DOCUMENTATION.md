@@ -1,10 +1,10 @@
 # Google Docs Clone
 
 ## Overview
-This documentation outlines the architecture, technologies used, and the approach for implementing real-time document collaboration in our application.
+This documentation outlines the architecture, technologies used, and the approach for implementing real-time document collaboration in this application.
 
 ## Architecture
-Our real-time document collaboration system follows a client-server architecture model:
+This google docs clone follows a client-server architecture model:
 
 * Client: The client-side application where users interact with the document editor.
 * Server: The server-side application responsible for handling client connections, managing documents, and facilitating real-time communication.
@@ -26,7 +26,7 @@ Our real-time document collaboration system follows a client-server architecture
 3. Socket.IO Client: Used for establishing a WebSocket connection with the server from the client-side.
 
 ## Real-Time Synchronization Approach
-Our real-time synchronization approach involves the following steps:
+This real-time synchronization approach involves the following steps:
 
 Connection Establishment: When a client connects to the server, a Socket.IO connection is established.
 
@@ -41,4 +41,4 @@ Broadcasting Changes: The server receives the changes and broadcasts them to all
 Periodic Saving: The server periodically saves the document content to the database to ensure data persistence. This is achieved through an interval set up on the server, which triggers a save operation at regular intervals.
 
 ## Conclusion
-By implementing real-time document collaboration, we provide users with a seamless and collaborative editing experience. Our system ensures that changes made by one user are instantly reflected across all connected clients, enabling efficient collaboration on documents.
+By implementing google docs clone, we provide users with a seamless and collaborative editing experience. this system ensures that changes made by one user are instantly reflected across all connected clients, enabling efficient collaboration on documents.
