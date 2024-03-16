@@ -82,7 +82,6 @@ const HomeScreen = () => {
     if (socket == null || quill == null) return;
 
     const interval = setInterval(() => {
-      // console.log(quill.getContents());
       socket.emit('save-document', quill.getContents());
     }, 2000);
 
