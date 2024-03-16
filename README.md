@@ -1,4 +1,3 @@
-
 ## Installation and Setup
 
 ### Backend Installation and Setup
@@ -19,9 +18,8 @@ Navigate to the Frontend Directory:
   cd frontend
   npm install
   npm run dev
-```    
+```
 
 ## Documentation
 
-[Documentation](https://linktodocumentation)
-
+[Documentation](https://github.com/Harshit-Banwal/google-docs/blob/master/DOCUMENTATION.md)
